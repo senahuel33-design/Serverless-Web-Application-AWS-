@@ -60,12 +60,21 @@ Create a table to store user data.
 ---
 
 ### 2. Create Lambda Function
-Create a Lambda function to process incoming requests.
 
-- Runtime: Python / Node.js
-- Add logic to store data in DynamoDB
+Create a Lambda function to process incoming requests and store data in DynamoDB.
 
-![Lambda](./screenshots/lambda/function.png)
+- Runtime: Python 3.12
+- Generates unique message IDs
+- Stores user messages in DynamoDB
+
+#### Lambda Function Created
+![Lambda Function](<Lamba/Lambda function created.PNG>)
+
+#### Lambda Function Code
+![Lambda Code](<Lamba/Lambda code.PNG>)
+
+#### IAM Permissions for DynamoDB Access
+![Lambda IAM Role](<Lamba/IAM role with DynamoDB permissions.PNG>)
 
 ---
 
