@@ -55,8 +55,8 @@ aws-serverless-app/
 ### 1. Create DynamoDB Table
 Create a table to store user data.
 
-![DynamoDB](./screenshots/dynamodb/table.png)
-
+![DynamoDB](<Screenshots/DynamoBD/Dynamo DB table.PNG>)
+![Table active](<Screenshots/DynamoBD/Dynamo DB table created.PNG>)
 ---
 
 ### 2. Create Lambda Function
