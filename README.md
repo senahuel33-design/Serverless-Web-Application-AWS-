@@ -83,6 +83,11 @@ Create a REST API and connect it to the Lambda function.
 
 ![API Gateway](<Screenshots/Api/Create API Gateway.PNG>)
 
+#### POST Route Configuration
+![POST Route](<Screenshots/Api/POST Route Configuration.PNG>)
+
+#### API Test Success
+![API Test](<Screenshots/Api/API Test Success.PNG>)
 ---
 
 ### 4. Enable CORS
