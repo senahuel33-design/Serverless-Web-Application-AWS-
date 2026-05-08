@@ -81,14 +81,14 @@ Create a Lambda function to process incoming requests and store data in DynamoDB
 ### 3. Create API Gateway
 Create a REST API and connect it to the Lambda function.
 
-![API Gateway](./screenshots/api/api.png)
+![API Gateway](<Screenshots/Api/Create API Gateway.PNG>)
 
 ---
 
 ### 4. Enable CORS
 Enable CORS so the frontend can call the API.
 
-![CORS](./screenshots/api/cors.png)
+![CORS](<Screenshots/Api/Enable CORS.PNG>)
 
 ---
 
