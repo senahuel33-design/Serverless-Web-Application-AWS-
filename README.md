@@ -97,17 +97,36 @@ Enable CORS so the frontend can call the API.
 
 ---
 
-### 5. Build Frontend (S3)
-Create a simple HTML form and host it on S3.
+### 5. Build Frontend
 
-![Frontend](./screenshots/frontend/form.png)
+Create a frontend using HTML, CSS, and JavaScript to interact with the serverless backend.
+
+#### Frontend Files
+![Frontend Files](<Screenshots/Frontend/frontend-files-uploaded.PNG>)
+
+#### Contact Form
+![Frontend Form](./screenshots/frontend/contact-form.png)
+
+#### JavaScript API Integration
+![JavaScript Integration](./screenshots/frontend/javascript-api-call.png)
+
+#### Frontend Local Test
+![Frontend Local Test](./screenshots/frontend/frontend-local-test.png)
 
 ---
 
-### 6. Connect Frontend to API
-Use JavaScript (fetch/axios) to send requests to API Gateway.
+### 6. Connect Frontend to API Gateway
 
----
+Connect the frontend application to API Gateway and store messages in DynamoDB.
+
+#### API Endpoint Configuration
+![API Endpoint](<Screenshots/Api/API Endpoint Configuration.PNG>)
+
+#### Successful Message Submission
+![Frontend Success](<Screenshots/Frontend/frontend-working.PNG>)
+
+#### DynamoDB Record Created
+![DynamoDB Success](./screenshots/dynamodb/frontend-message-saved.png)
 
 ### 7. (Optional) Add CloudFront
 Distribute the frontend securely via CloudFront.
