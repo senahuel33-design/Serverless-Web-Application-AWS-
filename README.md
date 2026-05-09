@@ -100,18 +100,16 @@ Enable CORS so the frontend can call the API.
 ### 5. Build Frontend
 
 Create a frontend using HTML, CSS, and JavaScript to interact with the serverless backend.
+The frontend uses JavaScript Fetch API to send POST requests to API Gateway.
 
 #### Frontend Files
 ![Frontend Files](<Screenshots/Frontend/frontend-files-uploaded.PNG>)
 
 #### Contact Form
-![Frontend Form](./screenshots/frontend/contact-form.png)
-
-#### JavaScript API Integration
-![JavaScript Integration](./screenshots/frontend/javascript-api-call.png)
+![Frontend Form](<Screenshots/Frontend/Contact form.PNG>)
 
 #### Frontend Local Test
-![Frontend Local Test](./screenshots/frontend/frontend-local-test.png)
+![Frontend Local Test](<Screenshots/Frontend/Frontend Local Test.PNG>)
 
 ---
 
