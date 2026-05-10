@@ -128,7 +128,7 @@ Connect the frontend application to API Gateway and store messages in DynamoDB.
 
 ### 7. (Optional) Add CloudFront
 Distribute the frontend securely via CloudFront.
-
+![Cloudfront Distribution](<Screenshots/CloudFront/CloudFront Distribution.PNG>)
 ---
 
 ## Problems and Solutions
