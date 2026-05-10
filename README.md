@@ -126,7 +126,7 @@ Connect the frontend application to API Gateway and store messages in DynamoDB.
 #### DynamoDB Record Created
 ![DynamoDB Success](<Screenshots/DynamoBD/DynamoDB Record Created.PNG>)
 
-### 7. (Optional) Add CloudFront
+### 7.Frontend via CloudFront
 Distribute the frontend securely via CloudFront.
 ![Cloudfront Distribution](<Screenshots/CloudFront/CloudFront Distribution.PNG>)
 ---
