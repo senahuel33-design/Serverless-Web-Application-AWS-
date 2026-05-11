@@ -10,7 +10,7 @@ Users can submit data through a web interface, which is processed by a backend A
 ## Architecture
 User → CloudFront → S3 → API Gateway → Lambda → DynamoDB
 
-![Architecture](./architecture/architecture-diagram.png)
+![Architecture](<Architecture/Serverless Web Application.png>)
 
 ---
 
