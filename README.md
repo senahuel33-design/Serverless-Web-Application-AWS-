@@ -149,7 +149,7 @@ Attached correct IAM role with DynamoDB permissions.
 
 ---
 
-## Terraform Implementation (Optional)
+## Terraform Implementation
 
 This project can also be automated using Terraform.
 
@@ -168,6 +168,20 @@ terraform plan
 terraform apply
 ```
 
+---
+## Deployment Screenshots
+
+#### Terraform Initialization
+![Terraform Init](<Terraform/Terraform init.PNG>)
+
+#### Lambda Function Created
+![Terraform Lambda](<Terraform/Lambda function Terraform.PNG>)
+
+#### IAM Role Configuration
+![Terraform IAM](<Terraform/IAM role attached Terraform.PNG>)
+
+### Terraform Apply Success
+![Terraform Success](<Terraform/Terraform apply success.PNG>)
 ---
 
 ## What I Learned
