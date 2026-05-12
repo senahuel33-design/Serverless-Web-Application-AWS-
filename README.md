@@ -14,6 +14,13 @@ User → CloudFront → S3 → API Gateway → Lambda → DynamoDB
 
 ---
 
+## Deployment Status
+✅ Frontend deployed successfully via CloudFront  
+✅ API Gateway connected to Lambda  
+✅ Messages stored successfully in DynamoDB
+
+---
+
 ## Services Used
 - Amazon S3
 - Amazon CloudFront
@@ -97,7 +104,7 @@ Enable CORS so the frontend can call the API.
 
 ---
 
-### 5. Build Frontend
+### 5. Create Frontend Application
 
 Create a frontend using HTML, CSS, and JavaScript to interact with the serverless backend.
 The frontend uses JavaScript Fetch API to send POST requests to API Gateway.
@@ -126,7 +133,7 @@ Connect the frontend application to API Gateway and store messages in DynamoDB.
 #### DynamoDB Record Created
 ![DynamoDB Success](<Screenshots/DynamoBD/DynamoDB Record Created.PNG>)
 
-### 7.Frontend via CloudFront
+### 7. Frontend via CloudFront
 Distribute the frontend securely via CloudFront.
 ![Cloudfront Distribution](<Screenshots/CloudFront/CloudFront Distribution.PNG>)
 ---
@@ -185,11 +192,12 @@ terraform apply
 ---
 
 ## What I Learned
-- How serverless architectures work
-- How APIs connect frontend and backend
-- How to use Lambda functions
-- How to manage IAM permissions
-- Debugging real-world cloud issues
+- Building serverless architectures on AWS
+- Connecting frontend and backend services
+- Using Lambda functions with API Gateway
+- Managing IAM permissions securely
+- Troubleshooting CORS and permission issues
+- Automating infrastructure with Terraform
 
 ---
 
